@@ -1,0 +1,33 @@
+.flex_container {
+    position:relative;
+    padding:0;
+    margin:0;
+    top:0;
+    left:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+}
+
+.item_canvas{
+    background:rgba(163, 230, 186, 0.5);
+    width:80vw;
+    height: 65vh;
+}
+
+.item_templates{
+    width:80vw;
+    height:15vh;
+}
+
+.item_btn{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
